@@ -10,7 +10,6 @@ let app = () => {
 
 class AppCtrl {
     constructor() {
-        this.copyright = '2020 | Digital Closuxe';
     }
 }
 
