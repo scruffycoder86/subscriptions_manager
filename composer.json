@@ -1,0 +1,24 @@
+{
+  "name": "scruffycoder/contact-model",
+  "description": "Models a Contact that represents a Persona within a typical Information System",
+  "license": "proprietary",
+  "config": {
+    "vendor-dir": "lib"
+  },
+  "autoload": {
+    "psr-4": {
+      "ScruffyCoder\\AppModel\\": [ "app/" ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ScruffyCoder\\Fixtures\\AppModel\\": "tests/fixtures/"
+    }
+  },
+  "require-dev": {
+    "atoum/atoum": "^3.4",
+    "atoum/stubs": "^2.6",
+    "phpunit/phpunit": "^8.5",
+    "atoum/atoum-bundle": "^2.0"
+  }
+}
